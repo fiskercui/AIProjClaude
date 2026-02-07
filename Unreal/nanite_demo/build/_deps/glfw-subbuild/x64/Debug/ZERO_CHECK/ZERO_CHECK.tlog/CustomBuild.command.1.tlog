@@ -1,0 +1,10 @@
+^E:\AIPROJCLAUDE\UNREAL\NANITE_DEMO\BUILD\_DEPS\GLFW-SUBBUILD\CMAKEFILES\8CE6FA49E1803AA001DEB36B6A78ED8A\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SE:/AIProjClaude/Unreal/nanite_demo/build/_deps/glfw-subbuild -BE:/AIProjClaude/Unreal/nanite_demo/build/_deps/glfw-subbuild --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file E:/AIProjClaude/Unreal/nanite_demo/build/_deps/glfw-subbuild/glfw-populate.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

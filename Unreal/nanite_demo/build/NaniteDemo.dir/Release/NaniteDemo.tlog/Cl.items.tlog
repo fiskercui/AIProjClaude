@@ -1,0 +1,10 @@
+E:\AIProjClaude\Unreal\nanite_demo\src\main.cpp;E:\AIProjClaude\Unreal\nanite_demo\build\NaniteDemo.dir\Release\main.obj
+E:\AIProjClaude\Unreal\nanite_demo\src\core\mesh_loader.cpp;E:\AIProjClaude\Unreal\nanite_demo\build\NaniteDemo.dir\Release\mesh_loader.obj
+E:\AIProjClaude\Unreal\nanite_demo\src\build\cluster.cpp;E:\AIProjClaude\Unreal\nanite_demo\build\NaniteDemo.dir\Release\cluster.obj
+E:\AIProjClaude\Unreal\nanite_demo\src\build\cluster_dag.cpp;E:\AIProjClaude\Unreal\nanite_demo\build\NaniteDemo.dir\Release\cluster_dag.obj
+E:\AIProjClaude\Unreal\nanite_demo\src\build\simplify.cpp;E:\AIProjClaude\Unreal\nanite_demo\build\NaniteDemo.dir\Release\simplify.obj
+E:\AIProjClaude\Unreal\nanite_demo\src\runtime\packed_view.cpp;E:\AIProjClaude\Unreal\nanite_demo\build\NaniteDemo.dir\Release\packed_view.obj
+E:\AIProjClaude\Unreal\nanite_demo\src\runtime\dag_traversal.cpp;E:\AIProjClaude\Unreal\nanite_demo\build\NaniteDemo.dir\Release\dag_traversal.obj
+E:\AIProjClaude\Unreal\nanite_demo\src\runtime\rasterizer.cpp;E:\AIProjClaude\Unreal\nanite_demo\build\NaniteDemo.dir\Release\rasterizer.obj
+E:\AIProjClaude\Unreal\nanite_demo\src\render\display.cpp;E:\AIProjClaude\Unreal\nanite_demo\build\NaniteDemo.dir\Release\display.obj
+E:\AIProjClaude\Unreal\nanite_demo\src\render\camera.cpp;E:\AIProjClaude\Unreal\nanite_demo\build\NaniteDemo.dir\Release\camera.obj

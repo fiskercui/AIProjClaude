@@ -1,0 +1,10 @@
+^E:\AIPROJCLAUDE\UNREAL\NANITE_DEMO\BUILD\CMAKEFILES\DE53CA5310E69693461E52D8FDCA2367\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SE:/AIProjClaude/Unreal/nanite_demo -BE:/AIProjClaude/Unreal/nanite_demo/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file E:/AIProjClaude/Unreal/nanite_demo/build/NaniteDemo.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

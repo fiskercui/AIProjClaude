@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(xargs:*)",
+      "Bash(dir:*)",
+      "Bash(python tools/gen_sphere.py:*)",
+      "Bash(cmake:*)",
+      "Bash(./NaniteDemo.exe assets/sphere.obj)"
+    ]
+  }
+}

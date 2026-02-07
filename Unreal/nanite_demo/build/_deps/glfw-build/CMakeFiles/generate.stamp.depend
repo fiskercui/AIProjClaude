@@ -1,0 +1,18 @@
+# CMake generation dependency list for this directory.
+C:/Program Files/CMake/share/cmake-3.29/Modules/BasicConfigVersion-SameMajorVersion.cmake.in
+C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDependentOption.cmake
+C:/Program Files/CMake/share/cmake-3.29/Modules/CMakePackageConfigHelpers.cmake
+C:/Program Files/CMake/share/cmake-3.29/Modules/CheckCSourceCompiles.cmake
+C:/Program Files/CMake/share/cmake-3.29/Modules/CheckIncludeFile.cmake
+C:/Program Files/CMake/share/cmake-3.29/Modules/CheckLibraryExists.cmake
+C:/Program Files/CMake/share/cmake-3.29/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files/CMake/share/cmake-3.29/Modules/FindPackageMessage.cmake
+C:/Program Files/CMake/share/cmake-3.29/Modules/FindThreads.cmake
+C:/Program Files/CMake/share/cmake-3.29/Modules/GNUInstallDirs.cmake
+C:/Program Files/CMake/share/cmake-3.29/Modules/Internal/CheckSourceCompiles.cmake
+C:/Program Files/CMake/share/cmake-3.29/Modules/WriteBasicConfigVersionFile.cmake
+E:/AIProjClaude/Unreal/nanite_demo/build/_deps/glfw-src/CMakeLists.txt
+E:/AIProjClaude/Unreal/nanite_demo/build/_deps/glfw-src/cmake_uninstall.cmake.in
+E:/AIProjClaude/Unreal/nanite_demo/build/_deps/glfw-src/src/glfw3.pc.in
+E:/AIProjClaude/Unreal/nanite_demo/build/_deps/glfw-src/src/glfw3Config.cmake.in
+E:/AIProjClaude/Unreal/nanite_demo/build/_deps/glfw-src/src/glfw_config.h.in

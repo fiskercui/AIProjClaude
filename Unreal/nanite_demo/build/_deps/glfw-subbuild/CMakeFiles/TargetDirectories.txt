@@ -1,0 +1,3 @@
+E:/AIProjClaude/Unreal/nanite_demo/build/_deps/glfw-subbuild/CMakeFiles/glfw-populate.dir
+E:/AIProjClaude/Unreal/nanite_demo/build/_deps/glfw-subbuild/CMakeFiles/ALL_BUILD.dir
+E:/AIProjClaude/Unreal/nanite_demo/build/_deps/glfw-subbuild/CMakeFiles/ZERO_CHECK.dir

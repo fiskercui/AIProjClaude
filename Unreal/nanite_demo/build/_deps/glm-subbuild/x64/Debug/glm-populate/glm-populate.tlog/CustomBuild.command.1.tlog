@@ -1,0 +1,150 @@
+^E:\AIPROJCLAUDE\UNREAL\NANITE_DEMO\BUILD\_DEPS\GLM-SUBBUILD\CMAKEFILES\90FD76F7E1AF77DD40A85CC638AD13F3\GLM-POPULATE-MKDIR.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -Dcfgdir=/Debug -P E:/AIProjClaude/Unreal/nanite_demo/build/_deps/glm-subbuild/glm-populate-prefix/tmp/glm-populate-mkdirs.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch E:/AIProjClaude/Unreal/nanite_demo/build/_deps/glm-subbuild/glm-populate-prefix/src/glm-populate-stamp/Debug/glm-populate-mkdir
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^E:\AIPROJCLAUDE\UNREAL\NANITE_DEMO\BUILD\_DEPS\GLM-SUBBUILD\CMAKEFILES\90FD76F7E1AF77DD40A85CC638AD13F3\GLM-POPULATE-DOWNLOAD.RULE
+setlocal
+cd E:\AIProjClaude\Unreal\nanite_demo\build\_deps
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -P E:/AIProjClaude/Unreal/nanite_demo/build/_deps/glm-subbuild/glm-populate-prefix/tmp/glm-populate-gitclone.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch E:/AIProjClaude/Unreal/nanite_demo/build/_deps/glm-subbuild/glm-populate-prefix/src/glm-populate-stamp/Debug/glm-populate-download
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^E:\AIPROJCLAUDE\UNREAL\NANITE_DEMO\BUILD\_DEPS\GLM-SUBBUILD\CMAKEFILES\90FD76F7E1AF77DD40A85CC638AD13F3\GLM-POPULATE-UPDATE.RULE
+setlocal
+cd E:\AIProjClaude\Unreal\nanite_demo\build\_deps\glm-src
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -Dcan_fetch=YES -P E:/AIProjClaude/Unreal/nanite_demo/build/_deps/glm-subbuild/glm-populate-prefix/tmp/glm-populate-gitupdate.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^E:\AIPROJCLAUDE\UNREAL\NANITE_DEMO\BUILD\_DEPS\GLM-SUBBUILD\CMAKEFILES\90FD76F7E1AF77DD40A85CC638AD13F3\GLM-POPULATE-PATCH.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch E:/AIProjClaude/Unreal/nanite_demo/build/_deps/glm-subbuild/glm-populate-prefix/src/glm-populate-stamp/Debug/glm-populate-patch
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^E:\AIPROJCLAUDE\UNREAL\NANITE_DEMO\BUILD\_DEPS\GLM-SUBBUILD\CMAKEFILES\90FD76F7E1AF77DD40A85CC638AD13F3\GLM-POPULATE-CONFIGURE.RULE
+setlocal
+cd E:\AIProjClaude\Unreal\nanite_demo\build\_deps\glm-build
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch E:/AIProjClaude/Unreal/nanite_demo/build/_deps/glm-subbuild/glm-populate-prefix/src/glm-populate-stamp/Debug/glm-populate-configure
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^E:\AIPROJCLAUDE\UNREAL\NANITE_DEMO\BUILD\_DEPS\GLM-SUBBUILD\CMAKEFILES\90FD76F7E1AF77DD40A85CC638AD13F3\GLM-POPULATE-BUILD.RULE
+setlocal
+cd E:\AIProjClaude\Unreal\nanite_demo\build\_deps\glm-build
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch E:/AIProjClaude/Unreal/nanite_demo/build/_deps/glm-subbuild/glm-populate-prefix/src/glm-populate-stamp/Debug/glm-populate-build
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^E:\AIPROJCLAUDE\UNREAL\NANITE_DEMO\BUILD\_DEPS\GLM-SUBBUILD\CMAKEFILES\90FD76F7E1AF77DD40A85CC638AD13F3\GLM-POPULATE-INSTALL.RULE
+setlocal
+cd E:\AIProjClaude\Unreal\nanite_demo\build\_deps\glm-build
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch E:/AIProjClaude/Unreal/nanite_demo/build/_deps/glm-subbuild/glm-populate-prefix/src/glm-populate-stamp/Debug/glm-populate-install
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^E:\AIPROJCLAUDE\UNREAL\NANITE_DEMO\BUILD\_DEPS\GLM-SUBBUILD\CMAKEFILES\90FD76F7E1AF77DD40A85CC638AD13F3\GLM-POPULATE-TEST.RULE
+setlocal
+cd E:\AIProjClaude\Unreal\nanite_demo\build\_deps\glm-build
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch E:/AIProjClaude/Unreal/nanite_demo/build/_deps/glm-subbuild/glm-populate-prefix/src/glm-populate-stamp/Debug/glm-populate-test
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^E:\AIPROJCLAUDE\UNREAL\NANITE_DEMO\BUILD\_DEPS\GLM-SUBBUILD\CMAKEFILES\B1C5B6806D3DF6FB9A69464A2926685C\GLM-POPULATE-COMPLETE.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory E:/AIProjClaude/Unreal/nanite_demo/build/_deps/glm-subbuild/CMakeFiles/Debug
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch E:/AIProjClaude/Unreal/nanite_demo/build/_deps/glm-subbuild/CMakeFiles/Debug/glm-populate-complete
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch E:/AIProjClaude/Unreal/nanite_demo/build/_deps/glm-subbuild/glm-populate-prefix/src/glm-populate-stamp/Debug/glm-populate-done
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^E:\AIPROJCLAUDE\UNREAL\NANITE_DEMO\BUILD\_DEPS\GLM-SUBBUILD\CMAKEFILES\0B63E3CFAD266A712DE56FCBDAD43C4D\GLM-POPULATE.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^E:\AIPROJCLAUDE\UNREAL\NANITE_DEMO\BUILD\_DEPS\GLM-SUBBUILD\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SE:/AIProjClaude/Unreal/nanite_demo/build/_deps/glm-subbuild -BE:/AIProjClaude/Unreal/nanite_demo/build/_deps/glm-subbuild --check-stamp-file E:/AIProjClaude/Unreal/nanite_demo/build/_deps/glm-subbuild/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

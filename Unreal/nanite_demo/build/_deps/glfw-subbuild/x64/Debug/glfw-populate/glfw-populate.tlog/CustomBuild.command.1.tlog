@@ -1,0 +1,150 @@
+^E:\AIPROJCLAUDE\UNREAL\NANITE_DEMO\BUILD\_DEPS\GLFW-SUBBUILD\CMAKEFILES\AAF241A168A7EFF4CFA9B67DA751B4DA\GLFW-POPULATE-MKDIR.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -Dcfgdir=/Debug -P E:/AIProjClaude/Unreal/nanite_demo/build/_deps/glfw-subbuild/glfw-populate-prefix/tmp/glfw-populate-mkdirs.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch E:/AIProjClaude/Unreal/nanite_demo/build/_deps/glfw-subbuild/glfw-populate-prefix/src/glfw-populate-stamp/Debug/glfw-populate-mkdir
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^E:\AIPROJCLAUDE\UNREAL\NANITE_DEMO\BUILD\_DEPS\GLFW-SUBBUILD\CMAKEFILES\AAF241A168A7EFF4CFA9B67DA751B4DA\GLFW-POPULATE-DOWNLOAD.RULE
+setlocal
+cd E:\AIProjClaude\Unreal\nanite_demo\build\_deps
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -P E:/AIProjClaude/Unreal/nanite_demo/build/_deps/glfw-subbuild/glfw-populate-prefix/tmp/glfw-populate-gitclone.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch E:/AIProjClaude/Unreal/nanite_demo/build/_deps/glfw-subbuild/glfw-populate-prefix/src/glfw-populate-stamp/Debug/glfw-populate-download
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^E:\AIPROJCLAUDE\UNREAL\NANITE_DEMO\BUILD\_DEPS\GLFW-SUBBUILD\CMAKEFILES\AAF241A168A7EFF4CFA9B67DA751B4DA\GLFW-POPULATE-UPDATE.RULE
+setlocal
+cd E:\AIProjClaude\Unreal\nanite_demo\build\_deps\glfw-src
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -Dcan_fetch=YES -P E:/AIProjClaude/Unreal/nanite_demo/build/_deps/glfw-subbuild/glfw-populate-prefix/tmp/glfw-populate-gitupdate.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^E:\AIPROJCLAUDE\UNREAL\NANITE_DEMO\BUILD\_DEPS\GLFW-SUBBUILD\CMAKEFILES\AAF241A168A7EFF4CFA9B67DA751B4DA\GLFW-POPULATE-PATCH.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch E:/AIProjClaude/Unreal/nanite_demo/build/_deps/glfw-subbuild/glfw-populate-prefix/src/glfw-populate-stamp/Debug/glfw-populate-patch
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^E:\AIPROJCLAUDE\UNREAL\NANITE_DEMO\BUILD\_DEPS\GLFW-SUBBUILD\CMAKEFILES\AAF241A168A7EFF4CFA9B67DA751B4DA\GLFW-POPULATE-CONFIGURE.RULE
+setlocal
+cd E:\AIProjClaude\Unreal\nanite_demo\build\_deps\glfw-build
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch E:/AIProjClaude/Unreal/nanite_demo/build/_deps/glfw-subbuild/glfw-populate-prefix/src/glfw-populate-stamp/Debug/glfw-populate-configure
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^E:\AIPROJCLAUDE\UNREAL\NANITE_DEMO\BUILD\_DEPS\GLFW-SUBBUILD\CMAKEFILES\AAF241A168A7EFF4CFA9B67DA751B4DA\GLFW-POPULATE-BUILD.RULE
+setlocal
+cd E:\AIProjClaude\Unreal\nanite_demo\build\_deps\glfw-build
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch E:/AIProjClaude/Unreal/nanite_demo/build/_deps/glfw-subbuild/glfw-populate-prefix/src/glfw-populate-stamp/Debug/glfw-populate-build
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^E:\AIPROJCLAUDE\UNREAL\NANITE_DEMO\BUILD\_DEPS\GLFW-SUBBUILD\CMAKEFILES\AAF241A168A7EFF4CFA9B67DA751B4DA\GLFW-POPULATE-INSTALL.RULE
+setlocal
+cd E:\AIProjClaude\Unreal\nanite_demo\build\_deps\glfw-build
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch E:/AIProjClaude/Unreal/nanite_demo/build/_deps/glfw-subbuild/glfw-populate-prefix/src/glfw-populate-stamp/Debug/glfw-populate-install
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^E:\AIPROJCLAUDE\UNREAL\NANITE_DEMO\BUILD\_DEPS\GLFW-SUBBUILD\CMAKEFILES\AAF241A168A7EFF4CFA9B67DA751B4DA\GLFW-POPULATE-TEST.RULE
+setlocal
+cd E:\AIProjClaude\Unreal\nanite_demo\build\_deps\glfw-build
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch E:/AIProjClaude/Unreal/nanite_demo/build/_deps/glfw-subbuild/glfw-populate-prefix/src/glfw-populate-stamp/Debug/glfw-populate-test
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^E:\AIPROJCLAUDE\UNREAL\NANITE_DEMO\BUILD\_DEPS\GLFW-SUBBUILD\CMAKEFILES\98D0A33C114CEEEDFA0DFA2084B04567\GLFW-POPULATE-COMPLETE.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory E:/AIProjClaude/Unreal/nanite_demo/build/_deps/glfw-subbuild/CMakeFiles/Debug
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch E:/AIProjClaude/Unreal/nanite_demo/build/_deps/glfw-subbuild/CMakeFiles/Debug/glfw-populate-complete
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch E:/AIProjClaude/Unreal/nanite_demo/build/_deps/glfw-subbuild/glfw-populate-prefix/src/glfw-populate-stamp/Debug/glfw-populate-done
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^E:\AIPROJCLAUDE\UNREAL\NANITE_DEMO\BUILD\_DEPS\GLFW-SUBBUILD\CMAKEFILES\8CE6FA49E1803AA001DEB36B6A78ED8A\GLFW-POPULATE.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^E:\AIPROJCLAUDE\UNREAL\NANITE_DEMO\BUILD\_DEPS\GLFW-SUBBUILD\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SE:/AIProjClaude/Unreal/nanite_demo/build/_deps/glfw-subbuild -BE:/AIProjClaude/Unreal/nanite_demo/build/_deps/glfw-subbuild --check-stamp-file E:/AIProjClaude/Unreal/nanite_demo/build/_deps/glfw-subbuild/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

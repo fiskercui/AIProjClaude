@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="E:\AIProjClaude\Unreal\nanite_demo\build\CMakeFiles\19364cdbbb97d9cf39263417dc7f5b45\INSTALL_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{B069ACFB-0CF8-3E26-ADFF-50294C04C8CC}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

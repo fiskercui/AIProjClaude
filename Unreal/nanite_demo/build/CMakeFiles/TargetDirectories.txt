@@ -1,0 +1,14 @@
+E:/AIProjClaude/Unreal/nanite_demo/build/CMakeFiles/glad.dir
+E:/AIProjClaude/Unreal/nanite_demo/build/CMakeFiles/NaniteDemo.dir
+E:/AIProjClaude/Unreal/nanite_demo/build/CMakeFiles/INSTALL.dir
+E:/AIProjClaude/Unreal/nanite_demo/build/CMakeFiles/ALL_BUILD.dir
+E:/AIProjClaude/Unreal/nanite_demo/build/CMakeFiles/ZERO_CHECK.dir
+E:/AIProjClaude/Unreal/nanite_demo/build/_deps/glfw-build/CMakeFiles/uninstall.dir
+E:/AIProjClaude/Unreal/nanite_demo/build/_deps/glfw-build/CMakeFiles/INSTALL.dir
+E:/AIProjClaude/Unreal/nanite_demo/build/_deps/glfw-build/CMakeFiles/ALL_BUILD.dir
+E:/AIProjClaude/Unreal/nanite_demo/build/_deps/glfw-build/src/CMakeFiles/update_mappings.dir
+E:/AIProjClaude/Unreal/nanite_demo/build/_deps/glfw-build/src/CMakeFiles/glfw.dir
+E:/AIProjClaude/Unreal/nanite_demo/build/_deps/glfw-build/src/CMakeFiles/INSTALL.dir
+E:/AIProjClaude/Unreal/nanite_demo/build/_deps/glm-build/CMakeFiles/INSTALL.dir
+E:/AIProjClaude/Unreal/nanite_demo/build/_deps/glm-build/CMakeFiles/ALL_BUILD.dir
+E:/AIProjClaude/Unreal/nanite_demo/build/_deps/glm-build/glm/CMakeFiles/INSTALL.dir

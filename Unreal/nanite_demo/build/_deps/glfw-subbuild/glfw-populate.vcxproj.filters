@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="E:\AIProjClaude\Unreal\nanite_demo\build\_deps\glfw-subbuild\CMakeFiles\aaf241a168a7eff4cfa9b67da751b4da\glfw-populate-mkdir.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\AIProjClaude\Unreal\nanite_demo\build\_deps\glfw-subbuild\CMakeFiles\aaf241a168a7eff4cfa9b67da751b4da\glfw-populate-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\AIProjClaude\Unreal\nanite_demo\build\_deps\glfw-subbuild\CMakeFiles\aaf241a168a7eff4cfa9b67da751b4da\glfw-populate-update.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\AIProjClaude\Unreal\nanite_demo\build\_deps\glfw-subbuild\CMakeFiles\aaf241a168a7eff4cfa9b67da751b4da\glfw-populate-patch.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\AIProjClaude\Unreal\nanite_demo\build\_deps\glfw-subbuild\CMakeFiles\aaf241a168a7eff4cfa9b67da751b4da\glfw-populate-configure.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\AIProjClaude\Unreal\nanite_demo\build\_deps\glfw-subbuild\CMakeFiles\aaf241a168a7eff4cfa9b67da751b4da\glfw-populate-build.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\AIProjClaude\Unreal\nanite_demo\build\_deps\glfw-subbuild\CMakeFiles\aaf241a168a7eff4cfa9b67da751b4da\glfw-populate-install.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\AIProjClaude\Unreal\nanite_demo\build\_deps\glfw-subbuild\CMakeFiles\aaf241a168a7eff4cfa9b67da751b4da\glfw-populate-test.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\AIProjClaude\Unreal\nanite_demo\build\_deps\glfw-subbuild\CMakeFiles\98d0a33c114ceeedfa0dfa2084b04567\glfw-populate-complete.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\AIProjClaude\Unreal\nanite_demo\build\_deps\glfw-subbuild\CMakeFiles\8ce6fa49e1803aa001deb36b6a78ed8a\glfw-populate.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\AIProjClaude\Unreal\nanite_demo\build\_deps\glfw-subbuild\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="E:\AIProjClaude\Unreal\nanite_demo\build\_deps\glfw-subbuild\CMakeFiles\glfw-populate" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{A87658F7-DEAF-3E67-BBC0-0B83249AA4EC}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

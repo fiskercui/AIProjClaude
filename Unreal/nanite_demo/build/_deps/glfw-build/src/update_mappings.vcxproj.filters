@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="E:\AIProjClaude\Unreal\nanite_demo\build\CMakeFiles\56bdbf32a2d080aed509f3a84a5dd641\update_mappings.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\AIProjClaude\Unreal\nanite_demo\build\_deps\glfw-src\src\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="E:\AIProjClaude\Unreal\nanite_demo\build\_deps\glfw-src\src\mappings.h.in">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\AIProjClaude\Unreal\nanite_demo\build\_deps\glfw-src\CMake\GenerateMappings.cmake" />
+    <None Include="E:\AIProjClaude\Unreal\nanite_demo\build\_deps\glfw-build\src\CMakeFiles\update_mappings" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{B069ACFB-0CF8-3E26-ADFF-50294C04C8CC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{C948324A-DC33-3942-9E67-DFE8112C9850}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="E:\AIProjClaude\Unreal\nanite_demo\build\_deps\glm-subbuild\CMakeFiles\0b63e3cfad266a712de56fcbdad43c4d\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{18BA6111-DD9E-37FC-9570-A12E2A0E795E}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
